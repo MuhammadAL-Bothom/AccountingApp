@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="24dp"
+    android:fitsSystemWindows="true"
+    android:background="?android:attr/windowBackground"
+    android:id="@+id/main"
+    tools:context=".HelpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvAboutTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📘 عن البرنامج - تطبيق المحاسبة"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvAboutIntro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مرحبًا بك في تطبيق المحاسبة الشخصي!\n\nيساعدك هذا التطبيق على تسجيل وتتبع العمليات اليومية بشكل بسيط وممتع. مناسب للطلاب، المحاسبين، وأصحاب المشاريع الصغيرة."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💼 المزايا الرئيسية:"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• تسجيل القيود اليومية (التاريخ، الحسابات، المبلغ، العملة، وصف اختياري).\n• دفتر الأستاذ لتصفية ومراجعة القيود.\n• كشف تلقائي لتوازن القيد.\n• تصدير القيود إلى ملف CSV.\n• استيراد القيود من ملف CSV.\n• تعديل أو حذف القيود بسهولة."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📋 طريقة استخدام البرنامج:"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:text="1️⃣ افتح شاشة &quot;القيد اليومي&quot; لتسجيل العمليات.\n\n2️⃣ اختر التاريخ المناسب من خلال النقر على حقل التاريخ.\n\n3️⃣ أدخل اسم الحساب المدين في الحقل المخصص.\n\n4️⃣ أدخل اسم الحساب الدائن في الحقل المخصص.\n\n5️⃣ أدخل مبلغ العملية واختر العملة.\n\n6️⃣ يمكنك كتابة وصف اختياري للعملية.\n\n7️⃣ اضغط على الزر ✅ &quot;حفظ القيد&quot; لحفظ العملية.\n\n8️⃣ لعرض وتصفية القيود، انتقل إلى شاشة &quot;دفتر الأستاذ&quot;.\n\n9️⃣ يمكنك التصفية حسب التاريخ أو الحساب لتسهيل البحث.\n\n🔟 اضغط مطولاً على أي قيد لعرض خيارات التعديل أو الحذف." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🧠 الفائدة التعليمية:"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="إذا كنت طالبًا في المحاسبة، فإن هذا التطبيق يساعدك على فهم مبادئ القيد المزدوج ومتابعة الحسابات بوضوح."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📞 الدعم والملاحظات:"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="للتواصل معنا أو تقديم اقتراحات:\n📧 m7mdbothom@gmail.com\n❤️ شكرًا لاستخدامك تطبيقنا!"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+/>
+    </LinearLayout>
+</ScrollView>
